@@ -1,0 +1,377 @@
+.btn-group-vertical{
+    border: 1px solid #C04427;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top:30px;
+    
+}
+.btn-default{
+    background-color: #ffffff;
+    color: #C04427;
+    font-family: 'Spartan', sans-serif;
+    border-color: #C04427;
+    text-align: left;
+    padding: 10px 50px 10px 25px;
+}
+.btn-default:hover{
+    background-color: transparent;
+    color: #C04427;
+}
+.btn-default:focus{
+    background: #C04427;
+    color: #ffffff;
+    outline: none;
+}
+.btn-default:active{
+    background-color: transparent;
+}
+
+
+.orders{
+    margin-top: 30px;
+}
+.text1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Spartan', sans-serif;
+    color: #C04427;
+    margin-left: 10px;
+}
+.bs-mt-50px{
+    margin-top: 50px;
+}
+.bs-mt-80px{
+    margin-top:80px ;
+}
+.bs-mt-30px{
+    margin-top: 30px;
+}
+.bs-mt-10px{
+    margin-top: 10px;
+}
+.bs-mt-20px{
+    margin-top: 20px;
+}
+.bs-mb-20px{
+    margin-bottom: 20px;
+}
+
+.numbers1,
+.numbers2,
+.numbers3,
+.numbers4{
+    color: #C04427;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.amount1,
+.amount2,
+.amount3,
+.amount4{
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Spartan', sans-serif;
+    margin-top: 10px;
+}
+.bold{
+    font-weight: 500;
+}
+.address1,
+.address2,
+.address3,
+.address4{
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Spartan', sans-serif;
+    margin-top: 10px;
+}
+.status1,
+.status2,
+.status3,
+.status4{
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-family: 'Spartan', sans-serif;
+    margin-top: 10px;
+}
+
+.bs-img-100per{
+    width: 100%;
+}
+
+.billing,
+.Items{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Spartan', sans-serif;
+}
+.delivery-address{
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Spartan', sans-serif;
+    margin-top: 10px;
+}
+
+.product,
+.product1 {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Spartan', sans-serif;
+  }
+
+.bs-font-fmly{
+    font-family: 'Spartan', sans-serif;
+}
+.bs-font-center{
+        text-align: center;
+}
+.sand{
+    border: 1px solid #B7B7B7;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Spartan', sans-serif;
+    padding: 15px;
+}
+.brick{
+        border: 1px solid #B7B7B7;
+        border-radius: 5px;
+        font-size: 12px;
+        line-height: 20px;
+        font-family: 'Spartan', sans-serif;
+        padding: 15px;
+}
+.tablehead{
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+}
+.Review{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Spartan', sans-serif;
+    margin-top: 25px;
+}
+.link{
+    background: #C04427;
+    border-radius: 2px;
+    color: #ffffff;
+    padding: 15px 25px;
+}
+
+.link:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.quality{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 30px;
+}
+.bs-font-fmly{
+    font-size: 10px;
+    line-height: 18px;
+}
+.feedback{
+    font-size: 10px;
+ line-height: 18px;
+}
+::placeholder{
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Spartan', sans-serif;
+}
+.text-area{
+    padding: 10px 100px 100px 10px;
+    margin-bottom: 20px;
+}
+.border{
+    border-bottom: 1px solid #B7B7B7;
+}
+.link2{
+    background-color: #C04427;
+    text-align: center;
+    padding: 10px 0;
+}
+.submit{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Spartan', sans-serif;
+
+}
+.submit:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.profile-bottom-nav{
+    display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .bs-profile-container{
+        padding-right: 50px !important;
+        padding-left: 50px !important;
+    }
+    .profile-bottom-nav{
+        display: flex !important;
+    }
+    .numbers2,
+    .numbers1,
+    .numbers3{
+        margin-top: 0px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .address3,
+    .address2{
+        margin-top: 0px;
+    }
+    .status1,
+    .status2,
+    .status3{
+        margin-top: 0px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .btn-group-vertical{
+        display: none;
+    }
+    .orders{
+        display: none;
+    }
+    .address1{
+        display: none;
+    }
+    .amount1{
+        display: none;
+    }
+    .Quantity,
+    .Price{
+        display: none;
+    }
+    .rev-button{
+        text-align: right;
+    }
+    .bal-amt{
+        text-align: right;
+    }
+  }
+
+
+  .red-bg{
+      background-color: #C04427;
+      height: 5px;
+      margin-top: 30px;
+      position: relative;
+  }
+  .crcl-bg{
+      background-color: #C04427;
+      border-radius: 50%;
+      position: absolute;
+      height: 55px;
+      width: 55px;
+      top: -20px;
+      left: 0px;
+  }
+  .position{
+    left: 0px;
+    top: 13px;
+    position: relative;
+  }
+
+
+  .pro-bio{
+    font-family: 'Spartan', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .pro-details{
+    font-family: 'Spartan', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .update{
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Spartan', sans-serif;
+    color: #ffffff;
+  }
+  .upd-btn{
+    background-color: #C04427;
+    text-align: center;
+    padding: 10px 0; 
+  }
+  .update:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.balance{
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+}
+.bal-amt{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Spartan', sans-serif;
+    color: #C04427;
+}
+.wal-sum{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Spartan', sans-serif;
+}
+.table-head{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Spartan', sans-serif;
+}
+.dates{
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Spartan', sans-serif;
+    margin-top: 20px;
+}
+.transaction{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Spartan', sans-serif;
+}
+.transaction-lists{
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Spartan', sans-serif;
+    margin-top: 20px;
+}
+.bal-details{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Spartan', sans-serif;
+}
