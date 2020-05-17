@@ -1,0 +1,43 @@
+[
+		{
+			"id":1,
+			"productName":"Pokemon",
+			"productCategory":"Category",
+			"price":50000,
+			"quantity":4,
+			"variants":[{
+				"variantid":1,
+				"variantName":"variant1",
+				"subCategorys":["subCategory1"],
+				"price":50000
+			}]
+		  },
+		  {
+			"id":2,
+			"productName":"The Legend of Zelda",
+			"productCategory":"Category",
+			"price":50000,
+			"quantity":4,
+			"variants":[
+				{
+					"variantid":1,
+					"variantName":"variant1",
+					"subCategorys":["subCategory1","subCategory2","subCategory3","subCategory4"],
+					"price":50000
+				},
+				{
+					"variantid":2,
+					"variantName":"variant2",
+					"subCategorys":["subCategory1","subCategory2","subCategory3","subCategory4"],
+					"price":50000
+				}
+			]
+		  },
+		  {
+			"id":3,
+			"productName":"Super Mario World",
+			"productCategory":"Category",
+			"price":50000,
+			"quantity":4
+		  }
+]
