@@ -22,13 +22,13 @@
 				{
 					"variantid":1,
 					"variantName":"variant1",
-					"subCategorys":["subCategory1","subCategory2","subCategory3","subCategory4"],
+					"subCategorys":["subCategory1","subCategory2","subCategory3","subCategory4","subCategory5"],
 					"price":50000
 				},
 				{
 					"variantid":2,
 					"variantName":"variant2",
-					"subCategorys":["subCategory1","subCategory2","subCategory3","subCategory4"],
+					"subCategorys":["subCategory1","subCategory2","subCategory3","subCategory4","subCategory5"],
 					"price":50000
 				}
 			]
